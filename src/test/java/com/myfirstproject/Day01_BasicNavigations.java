@@ -19,7 +19,6 @@ public class Day01_BasicNavigations {
         //    Maximize the window
         driver.manage().window().maximize();
 
-
         //    Open google home page https://www.google.com/.
         driver.get("https://www.google.com/");
 //    driver.get("http://www.google.co.uk/");//for UK
