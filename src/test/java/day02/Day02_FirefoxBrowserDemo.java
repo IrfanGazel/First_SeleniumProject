@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

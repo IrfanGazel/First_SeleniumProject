@@ -1,6 +1,6 @@
 
 
-package com.myfirstproject;
+package day03;
 
 import org.junit.Assert;
 import org.junit.Test;

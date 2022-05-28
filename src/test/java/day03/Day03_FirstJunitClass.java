@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day03;
 
 import org.junit.After;
 import org.junit.Before;
