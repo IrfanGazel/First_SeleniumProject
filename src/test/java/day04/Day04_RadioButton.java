@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day04;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;

@@ -17,7 +17,7 @@ public abstract class TestBase {
     /*
      * What is TestBase?
      * TestBase is a class that has repeated pre condition and post condiditon
-     * We have @Before and @After methods
+     * We have @Before a1nd @After methods
      *
      * TestBase should be an abstract class.We just want to implement the methods in TestBase
      * We don't want to create an object od TestBase class
