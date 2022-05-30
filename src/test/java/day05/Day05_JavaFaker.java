@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day05;
 
 import com.github.javafaker.Faker;
 import org.junit.Test;
