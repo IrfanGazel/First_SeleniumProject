@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day06;
 
 import com.myfirstproject.utilities.TestBase;
 import io.github.bonigarcia.wdm.WebDriverManager;

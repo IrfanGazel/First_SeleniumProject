@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day06;
 
 import com.myfirstproject.utilities.TestBase;
 import org.junit.Assert;
@@ -71,7 +71,7 @@ public class Day06_Alerts extends TestBase {
     public void sendKeysAlert() throws InterruptedException {
         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 //        click on the third alert,
-        driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
+        driver.findElement(By.cssSelector("button[onclick='jsPrompt()']")).click();
         Thread.sleep(5000);
 
 //    verify text “I am a JS prompt”
