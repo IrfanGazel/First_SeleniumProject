@@ -1,4 +1,4 @@
-package com.myfirstproject;
+package day07;
 
 import com.myfirstproject.utilities.TestBase;
 import org.checkerframework.checker.units.qual.C;
