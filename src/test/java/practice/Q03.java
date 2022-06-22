@@ -40,8 +40,8 @@ public class Q03 {
         driver.findElement(By.xpath("//input[@id='profession-1']")).click();
         //choose your tool -> Selenium Webdriver
         driver.findElement(By.xpath("//input[@id='tool-2']")).click();
-        //choose your continent -> Antartica
-        driver.findElement(By.xpath("//select[@id='continents']")).sendKeys("Antartica");
+        //choose your continent -> Antarctica
+        driver.findElement(By.xpath("//select[@id='continents']")).sendKeys("Antarctica");
 
         //choose your command  -> Browser Commands
         driver.findElement(By.xpath("(//option[@style='margin: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;'])[8]")).click();
