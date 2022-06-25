@@ -14,7 +14,7 @@ public class Day02_FirefoxBrowserDemo {
 //    Close/Quit the browser
      */
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+        System.setProperty("", "");
 
         WebDriver webDriver = new FirefoxDriver();
         webDriver.get("https://www.google.com/");

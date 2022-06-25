@@ -5,12 +5,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
-import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 
 import java.io.File;
 import java.io.IOException;
@@ -22,11 +19,11 @@ import java.util.Date;
 public abstract class TestBase {
     /*
      * What is TestBase?
-     * TestBase is a class that has repeated pre condition and post condiditon
+     * TestBase is a class that has repeated pre-condition and post condition
      * We have @Before and @After methods
      *
      * TestBase should be an abstract class.We just want to implement the methods in TestBase
-     * We don't want to create an object od TestBase class
+     * We don't want to create an object of TestBase class
      *
      * */
     protected static WebDriver driver;

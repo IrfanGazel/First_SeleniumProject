@@ -24,9 +24,11 @@ public class Homework1 {
 
         String pageTitle = driver.getTitle();
         if (pageTitle.contains("facebook")) {
+            System.out.println("Page title is correct");
+
 
         } else {
-            System.out.println("Your query failed,you shuold look for 'Facebook'");
+            System.out.println("Your query failed,you should look for 'Facebook'");
         }
         driver.close();
 
